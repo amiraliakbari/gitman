@@ -40,7 +40,7 @@ class World(object):
         print(hr)
         for i in range(self.size):
             print '|',
-            for j in range(self.size)
+            for j in range(self.size):
                 p = ' '
                 for name, place in self.player.iteritems():
                     if place == (i, j):
